@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,34 +13,31 @@
 <h1>Índice de Massa Corporal - IMC</h1>
 
 <body>
-    <main>
         <div class="formulario" id="formulario">
             <form action="." method="GET">
                 <div class="nome" id="div-nome">
                     <label for="nome" class="nome">Nome</label>
-                    <input clas="nome" type="text" id="nome" name="name" placeholder="Nome">
+                    <input type="text" id="nome" placeholder="Nome">
                 </div>
                 <div class="idade">
                     <label for="idade">Idade</label>
-                    <input type="number" id="idade" name="idade" placeholder="Idade">
+                    <input type="number" id="idade" placeholder="Idade">
                 </div>
                 <div class="altura">
                     <label for="altura">Altura</label>
-                    <input type="number" id="altura" name="idade" placeholder="Idade">
+                    <input type="number" id="altura" placeholder="Idade">
                 </div>
                 <div class="peso">
                     <label for="peso">Peso</label>
-                    <input type="number" id="peso" name="peso" placeholder="Peso">
+                    <input type="number" id="peso" placeholder="Peso">
                 </div>
                 <div class="button-calcular" id="calcular">
                     <button type="submit" id="calcular">Calcular</button>
                 </div>
-                <div id="resultado" class="resultado">
-                    <textarea name="resultado" id="resultado" cols="30" rows="10"></textarea>
-                </div>
             </form>
         </div>
-    </main>
+        <div id="resultado" class="result"></div>
+
 <script src="./calculoIMC.js"></script>
 </body>
 </html>
