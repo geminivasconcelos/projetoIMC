@@ -1,3 +1,9 @@
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    
+}
 h1{
     color: black;
     text-align: center;
@@ -5,8 +11,63 @@ h1{
 
 .formulario{
     text-align: center;
+    color: black;
 }
 
-label.nome{
+div.nome{
+    padding: 6px;
+    margin: 10px;
+}
+div.idade{
+    padding: 6px;
+    margin: 10px;
+}
+div.altura{
+    padding: 6px;
+    margin: 10px;
+}
+div.peso{
+    padding: 6px;
+    margin: 10px;
+}
+div.button-calcular{
+    padding: 6px;
+    margin: 10px;
+}
+div.calcular{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    resize: none;
+    width: 30%; 
+    height: 10%; 
+}
+button{
+    background-color: #DCDCDC;
+    border: none;
+    font-family: 'Poppins', sans-serif;
     color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
 }
