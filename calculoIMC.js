@@ -21,7 +21,7 @@ function imc(){
         if(imcCalculo < 16){
             classificacao = 'baixo peso muito grave';
         }
-        if(imcCalculo > 16 && imcCalculo <= 16.99){
+        if(imcCalculo >= 16 && imcCalculo <= 16.99){
             classificacao = 'baixo peso grave';
         }
         if(imcCalculo >= 17.00 && imcCalculo <= 18.49){
