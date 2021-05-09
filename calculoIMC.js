@@ -43,7 +43,7 @@ function imc(){
             classificacao = 'obesidade grau 3';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${imcCalculo} e você está ${classificacao}`;
+        resultado.innerHTML = `${nome} seu IMC é ${imcCalculo} e você está com ${classificacao}`;
 
     }else{
         resultado.textContent = 'Preencha todos os campos!!!';
